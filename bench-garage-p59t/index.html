@@ -1,0 +1,102 @@
+<!doctype html><html><head><meta charset=utf8><meta name=viewport content="width=device-width,initial-scale=1,viewport-fit=cover"><style>:root{color-scheme:light;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}html{scroll-padding-top:env(safe-area-inset-top,0px)}body{margin:0;padding:0;font:14px -apple-system,BlinkMacSystemFont,sans-serif;background:#fff;color:#000}img{max-width:100%}[hidden]:not([hidden=until-found i]){display:none!important}</style></head><body>
+<div style="background:#0B1B3A;color:#fff;text-align:center;padding:10px 16px;font:600 13px/1.4 system-ui,-apple-system,Segoe UI,sans-serif;letter-spacing:.05em;text-transform:uppercase">Concept by Bluestone Digital <span style="opacity:.55;padding:0 6px">&middot;</span> <span style="text-transform:none;letter-spacing:.01em;font-weight:500">a free website preview made for Bench Garage</span></div>
+<title>Bench Garage</title>
+<meta name="robots" content="noindex,nofollow">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@800&family=Archivo:wght@400;600;700&family=IBM+Plex+Mono:wght@500&display=swap">
+<style>/* Layout: shop-floor spec sheet; blueprint grid ground, condensed uppercase display with an outlined second line, red CTA band */
+:root{--bg:#EEF1F5;--panel:#FFFFFF;--navy:#0E1B33;--steel:#4B5A73;--grid:rgba(14,27,51,.07);--line:#D3DAE4;--red:#C8261E;--red2:#A81E17;--sky:#9FB3D1;
+--display:"Big Shoulders Display",Impact,"Arial Narrow",sans-serif;--body:"Archivo",system-ui,sans-serif;--mono:"IBM Plex Mono",ui-monospace,monospace;color-scheme:light}
+*{box-sizing:border-box}
+body{background:var(--bg);color:var(--navy);font:400 1.0625rem/1.6 var(--body);background-image:linear-gradient(var(--grid) 1px,transparent 1px),linear-gradient(90deg,var(--grid) 1px,transparent 1px);background-size:28px 28px}
+a{color:inherit}
+.wrap{max-width:1120px;margin:0 auto;padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px))}
+.row{display:flex;align-items:center;justify-content:space-between;gap:12px;flex-wrap:wrap}
+.lbl{font:500 .74rem/1.3 var(--mono);letter-spacing:.14em;text-transform:uppercase;color:var(--steel);margin:0}
+.lbl.r{color:var(--red)}
+h1,h2,h3{font-family:var(--display);font-weight:800;text-transform:uppercase;line-height:.95;margin:0;text-wrap:balance}
+h1{font-size:clamp(3rem,9vw,6rem);letter-spacing:.005em}
+h1 .ol{display:block;color:transparent;-webkit-text-stroke:2px var(--navy)}
+h2{font-size:clamp(2rem,5vw,3.2rem);margin-top:.35rem}
+h3{font-size:1.45rem;letter-spacing:.02em}
+.top{background:var(--navy);color:#fff;padding-block:12px}
+.brand{font:800 1.35rem/1 var(--display);text-transform:uppercase;letter-spacing:.04em;text-decoration:none;min-width:0}
+.call{background:var(--red);color:#fff;text-decoration:none;font:600 .95rem/1 var(--body);padding:12px 18px;border-radius:4px;white-space:nowrap}
+.call:hover,.btn:hover{background:var(--red2)}
+a:focus-visible,button:focus-visible,input:focus-visible,textarea:focus-visible{outline:3px solid var(--red);outline-offset:2px}
+.hero{padding-block:56px}
+.grid{display:grid;grid-template-columns:1.2fr .8fr;gap:40px;align-items:center}
+.copy{min-width:0;display:flex;flex-direction:column;gap:16px}
+.accent{font:700 1.35rem/1.25 var(--body);margin:0}
+.sub{max-width:34rem;color:var(--steel);margin:0;font-size:1.1rem}
+.actions{display:flex;flex-wrap:wrap;align-items:center;gap:16px}
+.btn{display:inline-block;background:var(--red);color:#fff;font:800 1.2rem/1 var(--display);text-transform:uppercase;letter-spacing:.06em;text-decoration:none;padding:16px 26px;border-radius:4px;border:0;cursor:pointer}
+.proof{font:500 .85rem/1.3 var(--mono);color:var(--steel)}
+.spec{background:var(--panel);border:1.5px solid var(--navy);border-radius:6px;padding:22px;display:flex;flex-direction:column;gap:18px;min-width:0}
+.gauge{width:min(220px,70%);aspect-ratio:1;max-width:100%;margin:0 auto;border-radius:50%;background:conic-gradient(from 225deg,var(--red) 0 calc(var(--pct)*270deg),var(--line) 0 270deg,transparent 0);display:grid;place-items:center;position:relative}
+.gauge::after{content:"";position:absolute;inset:14%;border-radius:50%;background:var(--panel)}
+.gauge div{position:relative;z-index:1;text-align:center}
+.gauge b{display:block;font:800 3.4rem/1 var(--display)}
+.gauge span{font:500 .7rem/1.2 var(--mono);letter-spacing:.12em;text-transform:uppercase;color:var(--steel)}
+.spec dl{margin:0;display:grid;grid-template-columns:auto 1fr;gap:8px 16px;font-size:.95rem}
+.spec dt{font:500 .72rem/1.6 var(--mono);letter-spacing:.1em;text-transform:uppercase;color:var(--steel)}
+.spec dd{margin:0;font-weight:600;min-width:0;overflow-wrap:anywhere}
+.strip{background:var(--navy);color:#fff;padding-block:14px;overflow:hidden}
+.strip ul{list-style:none;margin:0;padding:0;display:flex;flex-wrap:wrap;gap:8px 28px;justify-content:center;font:800 1.15rem/1.2 var(--display);text-transform:uppercase;letter-spacing:.08em}
+.strip li::before{content:"// ";color:var(--sky)}
+.sec{padding-block:72px}
+.alt{background:var(--panel);border-block:1px solid var(--line)}
+.cards{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:16px;margin-top:32px}
+.card{background:var(--panel);border:1.5px solid var(--navy);border-radius:6px;padding:22px;display:flex;flex-direction:column;gap:10px;min-width:0}
+.card .no{font:500 .72rem/1 var(--mono);color:var(--steel);letter-spacing:.1em}
+.card svg{width:44px;height:44px;fill:none;stroke:var(--red);stroke-width:2.4;stroke-linecap:round;stroke-linejoin:round}
+.card p{margin:0;color:var(--steel);font-size:.97rem}
+.steps{list-style:none;padding:0;margin:32px 0 0;display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:28px}
+.steps li{display:flex;flex-direction:column;gap:8px;min-width:0;border-top:3px solid var(--navy);padding-top:16px}
+.steps b{font:800 2.6rem/1 var(--display);color:var(--red)}
+.steps p{margin:0;color:var(--steel)}
+.two{display:grid;grid-template-columns:.9fr 1.1fr;gap:40px;align-items:start}
+.two>*{min-width:0}
+.why{list-style:none;margin:0;padding:0}
+.why li{padding-block:18px;border-top:1px solid var(--line);display:flex;flex-direction:column;gap:4px}
+.why li:last-child{border-bottom:1px solid var(--line)}
+.why p{margin:0;color:var(--steel)}
+.area{list-style:none;margin:0;padding:0;display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px}
+.area li{background:var(--panel);border:1.5px solid var(--navy);border-radius:4px;padding:12px 14px;font:800 1.15rem/1 var(--display);text-transform:uppercase;letter-spacing:.05em}
+.note{color:var(--steel);margin:.8rem 0 0;font-size:.95rem}
+.band{background:var(--red);color:#fff;padding-block:64px}
+.band .lbl{color:#FFD9D6}
+.band h2{color:#fff}
+.big-phone{font:800 clamp(2.2rem,5vw,3rem)/1 var(--display);margin:1.2rem 0 .5rem}
+.big-phone a{text-decoration:none;color:#fff}
+.addr{margin:0;color:#FFE7E5}
+.form{background:var(--panel);color:var(--navy);border-radius:6px;padding:24px;display:flex;flex-direction:column;gap:6px}
+.form label{font:500 .72rem/1.3 var(--mono);letter-spacing:.1em;text-transform:uppercase;color:var(--steel);margin-top:8px}
+.form input,.form textarea{font:inherit;color:var(--navy);background:var(--bg);border:1px solid var(--line);border-radius:4px;padding:12px;width:100%}
+.form .btn{margin-top:14px;align-self:flex-start;background:var(--navy)}
+.form .btn:hover{background:var(--steel)}
+.fine{margin:6px 0 0;font-size:.85rem;color:var(--steel)}
+.foot{background:var(--navy);color:#C7D0DE;padding-block:22px;font-size:.9rem}
+@media (max-width:860px){.grid,.two{grid-template-columns:1fr}.cards{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media (max-width:560px){.cards,.steps{grid-template-columns:1fr}.hero{padding-block:36px}.sec{padding-block:52px}.call{padding:10px 12px;font-size:.85rem}h1 .ol{-webkit-text-stroke:1.5px var(--navy)}}
+</style>
+<header class="top"><div class="wrap row"><a class="brand" href="#top">Bench Garage</a><a class="call" href="tel:+12087247304">Call (208) 724-7304</a></div></header>
+<main id="top">
+<section class="hero"><div class="wrap grid">
+<div class="copy"><p class="lbl r">Auto repair shop · Boise, ID</p><h1>Bench Garage<span class="ol">Boise</span></h1><p class="accent">Asian imports and domestics</p><p class="sub">Repair for import (Asian) and domestic cars and light trucks on South Vista Ave in Boise.</p>
+<div class="actions"><a class="btn" href="#quote">Get a quote</a><span class="proof">4.8 stars from 57 Google reviews</span></div></div>
+<aside class="spec" aria-label="Shop details"><div class="gauge" style="--pct:0.96"><div><b>4.8</b><span>57 Google reviews</span></div></div>
+<dl><dt>Shop</dt><dd>Bench Garage</dd><dt>Location</dt><dd>414 S Vista Ave, Boise, ID</dd><dt>Phone</dt><dd>(208) 724-7304</dd></dl></aside>
+</div></section>
+<div class="strip"><div class="wrap"><ul><li>Import repair</li><li>Domestic repair</li><li>Light truck repair</li><li>Diagnostics</li></ul></div></div>
+<section class="sec"><div class="wrap"><p class="lbl r">Services</p><h2>What we work on</h2><div class="cards"><article class="card"><span class="no">SVC-01</span><svg viewBox="0 0 48 48" aria-hidden="true"><circle cx="24" cy="24" r="17"/><path d="M7 24h34M24 7c6 6 6 28 0 34M24 7c-6 6-6 28 0 34"/></svg><h3>Import repair</h3><p>Repair on Asian import cars and trucks.</p></article><article class="card"><span class="no">SVC-02</span><svg viewBox="0 0 48 48" aria-hidden="true"><path d="M30 6a10 10 0 0 0-9 14L6 35l7 7 15-15A10 10 0 0 0 42 18l-6 6-6-2-2-6 6-6a10 10 0 0 0-4-4z"/></svg><h3>Domestic repair</h3><p>Repair on domestic cars and light trucks.</p></article><article class="card"><span class="no">SVC-03</span><svg viewBox="0 0 48 48" aria-hidden="true"><path d="M4 14h24v18H4zM28 20h8l6 6v6H28z"/><circle cx="12" cy="34" r="4"/><circle cx="34" cy="34" r="4"/></svg><h3>Light truck repair</h3><p>Pickups and light trucks, kept working.</p></article><article class="card"><span class="no">SVC-04</span><svg viewBox="0 0 48 48" aria-hidden="true"><rect x="6" y="10" width="36" height="24" rx="3"/><path d="M12 26l6-8 6 5 6-9 6 6"/><path d="M18 40h12M24 34v6"/></svg><h3>Diagnostics</h3><p>Check-engine lights and hard-to-find problems tracked down.</p></article></div></div></section>
+<section class="sec alt"><div class="wrap"><p class="lbl r">How it works</p><h2>Three steps, no runaround</h2><ol class="steps"><li><b>01</b><h3>Call or send a request</h3><p>Tell us the year, make and model and what it is doing.</p></li><li><b>02</b><h3>We find the problem</h3><p>We look the car over and give you a clear quote before any work.</p></li><li><b>03</b><h3>Fixed and handed back</h3><p>You approve the work, we do it, and you get your keys back.</p></li></ol></div></section>
+<section class="sec"><div class="wrap two"><div><p class="lbl r">Why Bench Garage</p><h2>Why drivers in Boise come here</h2></div><ul class="why"><li><span class="lbl r">4.8 stars on Google</span><p>57 Google reviews so far, averaging 4.8 stars.</p></li><li><span class="lbl r">Based in Boise</span><p>A local shop at 414 S Vista Ave, Boise, ID.</p></li><li><span class="lbl r">Imports and domestics</span><p>Bench Garage works on Asian imports and domestic cars and light trucks.</p></li></ul></div></section>
+<section class="sec alt"><div class="wrap two"><div><p class="lbl r">Service area</p><h2>Serving Boise and nearby</h2><p class="note">Draft list. Call to check your area.</p></div><ul class="area"><li>Boise Bench</li><li>Downtown Boise</li><li>Garden City</li><li>Meridian</li><li>Kuna</li><li>Southeast Boise</li></ul></div></section>
+<section class="band" id="quote"><div class="wrap two"><div><p class="lbl">Get a quote</p><h2>Tell us what it&rsquo;s doing</h2><p class="big-phone"><a href="tel:+12087247304">(208) 724-7304</a></p><p class="addr">414 S Vista Ave, Boise, ID</p></div>
+<form class="form" onsubmit="return false"><label for="f-name">Name</label><input id="f-name" type="text" autocomplete="name"><label for="f-phone">Phone</label><input id="f-phone" type="tel" autocomplete="tel"><label for="f-car">Year, make and model</label><input id="f-car" type="text"><label for="f-job">What&rsquo;s going on?</label><textarea id="f-job" rows="4"></textarea><button type="button" class="btn">Send request</button><p class="fine">Concept form. It does not send yet.</p></form></div></section>
+</main>
+<footer class="foot"><div class="wrap row"><span>Bench Garage · Boise, ID · (208) 724-7304</span><span>Website concept by Bluestone Digital. Not a live site.</span></div></footer>
+
+<a href="https://bluestonedigitals.com" style="position:fixed;right:12px;bottom:max(12px,env(safe-area-inset-bottom,0px));z-index:99999;background:#0B1B3A;color:#fff;text-decoration:none;font:600 12px/1 system-ui,-apple-system,Segoe UI,sans-serif;letter-spacing:.04em;padding:10px 14px;border-radius:999px;box-shadow:0 6px 18px rgba(0,0,0,.28)">Concept by <b style="color:#E3B45C">Bluestone Digital</b></a>
+</body></html>
