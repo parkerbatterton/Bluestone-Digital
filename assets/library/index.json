@@ -1,0 +1,347 @@
+{
+ "updated": "2026-11-12",
+ "note": "AI-generated concept imagery. No people with faces, no readable text, no logos except incidental vehicle badges on the auto-bmw set. Always label as concept imagery on mockups.",
+ "images": [
+  {
+   "id": "auto-bmw-01-coupe-profile",
+   "file": "auto-bmw-01-coupe-profile.jpg",
+   "url": "https://preview.bluestonedigitals.com/assets/library/auto-bmw-01-coupe-profile.jpg",
+   "category": "auto-repair",
+   "description": "Dark grey BMW coupe in profile, blue wheel calipers, cold blue fog and wet floor",
+   "tags": [
+    "hero",
+    "vehicle",
+    "profile"
+   ],
+   "bestFor": [
+    "auto repair",
+    "european auto",
+    "performance auto"
+   ],
+   "accent": "blue",
+   "width": 1600,
+   "height": 900,
+   "bytes": 91932,
+   "people": "no faces",
+   "source": "ChatGPT image generation, Nov 2026",
+   "style": "ultra-realistic cinematic 16:9, dark scene"
+  },
+  {
+   "id": "auto-bmw-02-lift-bay",
+   "file": "auto-bmw-02-lift-bay.jpg",
+   "url": "https://preview.bluestonedigitals.com/assets/library/auto-bmw-02-lift-bay.jpg",
+   "category": "auto-repair",
+   "description": "Dark sedan raised on a two-post lift in a clean blue-lit shop bay",
+   "tags": [
+    "shop",
+    "bay",
+    "lift",
+    "interior"
+   ],
+   "bestFor": [
+    "auto repair",
+    "mechanic"
+   ],
+   "accent": "blue",
+   "width": 1600,
+   "height": 900,
+   "bytes": 158807,
+   "people": "no faces",
+   "source": "ChatGPT image generation, Nov 2026",
+   "style": "ultra-realistic cinematic 16:9, dark scene"
+  },
+  {
+   "id": "auto-bmw-03-grille-headlight",
+   "file": "auto-bmw-03-grille-headlight.jpg",
+   "url": "https://preview.bluestonedigitals.com/assets/library/auto-bmw-03-grille-headlight.jpg",
+   "category": "auto-repair",
+   "description": "Macro of a dark BMW grille and angel-eye headlight with water beads",
+   "tags": [
+    "detail",
+    "macro",
+    "headlight"
+   ],
+   "bestFor": [
+    "auto repair",
+    "detailing"
+   ],
+   "accent": "blue",
+   "width": 1600,
+   "height": 900,
+   "bytes": 215427,
+   "people": "no faces",
+   "source": "ChatGPT image generation, Nov 2026",
+   "style": "ultra-realistic cinematic 16:9, dark scene"
+  },
+  {
+   "id": "auto-bmw-04-tech-engine-bay",
+   "file": "auto-bmw-04-tech-engine-bay.jpg",
+   "url": "https://preview.bluestonedigitals.com/assets/library/auto-bmw-04-tech-engine-bay.jpg",
+   "category": "auto-repair",
+   "description": "Technician in coveralls with a tablet beside an open engine bay (no face)",
+   "tags": [
+    "tech",
+    "diagnostics",
+    "engine"
+   ],
+   "bestFor": [
+    "auto repair",
+    "diagnostics"
+   ],
+   "accent": "blue",
+   "width": 1600,
+   "height": 900,
+   "bytes": 149114,
+   "people": "no faces",
+   "source": "ChatGPT image generation, Nov 2026",
+   "style": "ultra-realistic cinematic 16:9, dark scene"
+  },
+  {
+   "id": "auto-bmw-05-dusk-exterior",
+   "file": "auto-bmw-05-dusk-exterior.jpg",
+   "url": "https://preview.bluestonedigitals.com/assets/library/auto-bmw-05-dusk-exterior.jpg",
+   "category": "auto-repair",
+   "description": "Dark sedan outside a glass-door garage at dusk with mountains",
+   "tags": [
+    "exterior",
+    "dusk",
+    "garage",
+    "wide"
+   ],
+   "bestFor": [
+    "auto repair"
+   ],
+   "accent": "blue",
+   "width": 1600,
+   "height": 900,
+   "bytes": 210110,
+   "people": "no faces",
+   "source": "ChatGPT image generation, Nov 2026",
+   "style": "ultra-realistic cinematic 16:9, dark scene"
+  },
+  {
+   "id": "auto-shop-02-trans-jack-bay",
+   "file": "auto-shop-02-trans-jack-bay.jpg",
+   "url": "https://preview.bluestonedigitals.com/assets/library/auto-shop-02-trans-jack-bay.jpg",
+   "category": "auto-repair",
+   "description": "Truck on a lift with a transmission on a red jack, lit tool wall, amber glow",
+   "tags": [
+    "shop",
+    "bay",
+    "transmission",
+    "tools"
+   ],
+   "bestFor": [
+    "auto repair",
+    "transmission",
+    "truck",
+    "diesel"
+   ],
+   "accent": "amber",
+   "width": 1600,
+   "height": 900,
+   "bytes": 206620,
+   "people": "no faces",
+   "source": "ChatGPT image generation, Nov 2026",
+   "style": "ultra-realistic cinematic 16:9, dark scene"
+  },
+  {
+   "id": "auto-parts-03-torque-converter",
+   "file": "auto-parts-03-torque-converter.jpg",
+   "url": "https://preview.bluestonedigitals.com/assets/library/auto-parts-03-torque-converter.jpg",
+   "category": "auto-repair",
+   "description": "Macro of a torque converter and valve body on a steel bench",
+   "tags": [
+    "detail",
+    "macro",
+    "transmission",
+    "parts"
+   ],
+   "bestFor": [
+    "transmission",
+    "auto repair",
+    "machine shop"
+   ],
+   "accent": "amber",
+   "width": 1600,
+   "height": 900,
+   "bytes": 255232,
+   "people": "no faces",
+   "source": "ChatGPT image generation, Nov 2026",
+   "style": "ultra-realistic cinematic 16:9, dark scene"
+  },
+  {
+   "id": "auto-diag-04-scan-tool",
+   "file": "auto-diag-04-scan-tool.jpg",
+   "url": "https://preview.bluestonedigitals.com/assets/library/auto-diag-04-scan-tool.jpg",
+   "category": "auto-repair",
+   "description": "OBD scan tool plugged into a dark dashboard, screen glowing",
+   "tags": [
+    "diagnostics",
+    "detail",
+    "tool"
+   ],
+   "bestFor": [
+    "auto repair",
+    "diagnostics"
+   ],
+   "accent": "amber",
+   "width": 1600,
+   "height": 900,
+   "bytes": 131926,
+   "people": "no faces",
+   "source": "ChatGPT image generation, Nov 2026",
+   "style": "ultra-realistic cinematic 16:9, dark scene"
+  },
+  {
+   "id": "auto-shop-05-exterior-dusk",
+   "file": "auto-shop-05-exterior-dusk.jpg",
+   "url": "https://preview.bluestonedigitals.com/assets/library/auto-shop-05-exterior-dusk.jpg",
+   "category": "auto-repair",
+   "description": "Independent shop with lit roll-up bay doors under a dusk sky, amber light",
+   "tags": [
+    "exterior",
+    "dusk",
+    "storefront",
+    "wide"
+   ],
+   "bestFor": [
+    "auto repair",
+    "transmission",
+    "mechanic"
+   ],
+   "accent": "amber",
+   "width": 1600,
+   "height": 900,
+   "bytes": 195239,
+   "people": "no faces",
+   "source": "ChatGPT image generation, Nov 2026",
+   "style": "ultra-realistic cinematic 16:9, dark scene"
+  },
+  {
+   "id": "auto-interior-06-shifter-blue",
+   "file": "auto-interior-06-shifter-blue.jpg",
+   "url": "https://preview.bluestonedigitals.com/assets/library/auto-interior-06-shifter-blue.jpg",
+   "category": "auto-repair",
+   "description": "Dark performance cabin, gear shifter and ambient blue light",
+   "tags": [
+    "detail",
+    "interior",
+    "vehicle"
+   ],
+   "bestFor": [
+    "auto repair",
+    "detailing",
+    "performance auto"
+   ],
+   "accent": "blue",
+   "width": 1600,
+   "height": 900,
+   "bytes": 93522,
+   "people": "no faces",
+   "source": "ChatGPT image generation, Nov 2026",
+   "style": "ultra-realistic cinematic 16:9, dark scene"
+  },
+  {
+   "id": "home-remodel-01-kitchen",
+   "file": "home-remodel-01-kitchen.jpg",
+   "url": "https://preview.bluestonedigitals.com/assets/library/home-remodel-01-kitchen.jpg",
+   "category": "home-remodel",
+   "description": "Luxury black-marble kitchen island with brass fixtures and warm under-cabinet light",
+   "tags": [
+    "interior",
+    "kitchen",
+    "remodel"
+   ],
+   "bestFor": [
+    "remodeling",
+    "general contractor",
+    "cabinetry"
+   ],
+   "accent": "amber",
+   "width": 1600,
+   "height": 900,
+   "bytes": 181458,
+   "people": "no faces",
+   "source": "ChatGPT image generation, Nov 2026",
+   "style": "ultra-realistic cinematic 16:9, dark scene"
+  },
+  {
+   "id": "home-remodel-02-bathroom",
+   "file": "home-remodel-02-bathroom.jpg",
+   "url": "https://preview.bluestonedigitals.com/assets/library/home-remodel-02-bathroom.jpg",
+   "category": "home-remodel",
+   "description": "Spa bathroom with freestanding stone tub, rain shower and night view",
+   "tags": [
+    "interior",
+    "bathroom",
+    "remodel"
+   ],
+   "bestFor": [
+    "remodeling",
+    "general contractor",
+    "plumbing"
+   ],
+   "accent": "amber",
+   "width": 1600,
+   "height": 901,
+   "bytes": 195519,
+   "people": "no faces",
+   "source": "ChatGPT image generation, Nov 2026",
+   "style": "ultra-realistic cinematic 16:9, dark scene"
+  },
+  {
+   "id": "home-remodel-03-living-room",
+   "file": "home-remodel-03-living-room.jpg",
+   "url": "https://preview.bluestonedigitals.com/assets/library/home-remodel-03-living-room.jpg",
+   "category": "home-remodel",
+   "description": "Double-height living room with stone fireplace and glass walls at blue hour",
+   "tags": [
+    "interior",
+    "living",
+    "fireplace",
+    "wide"
+   ],
+   "bestFor": [
+    "remodeling",
+    "general contractor",
+    "custom homes"
+   ],
+   "accent": "amber",
+   "width": 1600,
+   "height": 901,
+   "bytes": 252514,
+   "people": "no faces",
+   "source": "ChatGPT image generation, Nov 2026",
+   "style": "ultra-realistic cinematic 16:9, dark scene"
+  },
+  {
+   "id": "home-outdoor-04-pool-patio",
+   "file": "home-outdoor-04-pool-patio.jpg",
+   "url": "https://preview.bluestonedigitals.com/assets/library/home-outdoor-04-pool-patio.jpg",
+   "category": "home-outdoor",
+   "description": "Pool and covered patio of a luxury home at night with underwater glow",
+   "tags": [
+    "exterior",
+    "pool",
+    "patio",
+    "wide"
+   ],
+   "bestFor": [
+    "landscaping",
+    "hardscape",
+    "concrete",
+    "pool",
+    "outdoor living",
+    "custom homes"
+   ],
+   "accent": "blue",
+   "width": 1600,
+   "height": 901,
+   "bytes": 229304,
+   "people": "no faces",
+   "source": "ChatGPT image generation, Nov 2026",
+   "style": "ultra-realistic cinematic 16:9, dark scene"
+  }
+ ]
+}
